@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="App w-full h-full bg-red-50">
+    <div className="w-full h-full bg-red-50">
       <main className="max-w-screen-xl mx-auto">
         <NavigationBar />
         <DefaultPage />
