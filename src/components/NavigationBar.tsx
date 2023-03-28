@@ -3,20 +3,23 @@ import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
 import down from "../assets/chevron-down-solid.svg";
 import globe from "../assets/globe-solid.svg";
+import { Link } from "react-router-dom";
 
 export function NavigationBar() {
   return (
     <nav className="w-full lg:px-24 lg:flex lg:flex-row items-center justify-between border-black border-b">
-      <img
-        src={logo}
-        className="object-scale-down max-h-36 mx-auto lg:m-0"
-        alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
-      />
+      <Link to="/">
+        <img
+          src={logo}
+          className="object-scale-down max-h-36 mx-auto lg:m-0"
+          alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
+        />
+      </Link>
       <ul className="flex flex-row flex-wrap lg:gap-5 gap-3 items-center justify-center mx-5 mb-2.5 lg:mb-0">
         <li>
-          <a href="#" className="hover:text-red-300">
+          <Link to="/about" className="hover:text-red-300">
             About Us
-          </a>
+          </Link>
         </li>
         <li>
           <a href="#" className="hover:text-red-300">

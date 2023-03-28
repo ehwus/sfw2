@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { NavigationBar } from "./components/NavigationBar";
 import { DefaultPage } from "./pages/DefaultPage";
 import { Footer } from "./components/Footer";
+import { About } from "./pages/About";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" element={<DefaultPage />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </main>
