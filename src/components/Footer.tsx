@@ -7,7 +7,7 @@ export function Footer() {
   const currentYear = useMemo(() => new Date().getFullYear(), []);
 
   return (
-    <footer className="w-full px-24 py-12 flex justify-between items-center">
+    <footer className="w-full h-64 lg:h-fit px-8 py-6 lg:px-24 lg:py-12 flex flex-col lg:flex-row justify-between items-center">
       <aside className="flex flex-col gap-0.5">
         <p>contact@safetyfirstwales.org</p>
         <div className="flex gap-2.5 justify-center">
@@ -19,10 +19,10 @@ export function Footer() {
           </a>
         </div>
       </aside>
-      <aside>
+      <aside className="order-last lg:order-none">
         <p>© Safety First Wales {currentYear}</p>
       </aside>
-      <aside className="flex flex-col">
+      <aside className="flex flex-col order-first lg:order-none">
         <a href="#">
           <img src={paypalLogo} alt="Paypal Logo" className="max-h-12" />
           <p className="bg-black text-white px-1.5 text-center">Donate</p>
