@@ -6,13 +6,13 @@ import globe from "../assets/globe-solid.svg";
 
 export function NavigationBar() {
   return (
-    <nav className="w-full px-24 flex flex-row items-center justify-between border-black border-b">
+    <nav className="w-full lg:px-24 lg:flex lg:flex-row items-center justify-between border-black border-b">
       <img
         src={logo}
-        className="object-scale-down max-h-36"
+        className="object-scale-down max-h-36 mx-auto lg:m-0"
         alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
       />
-      <ul className="flex flex-row gap-5 items-center">
+      <ul className="flex flex-row flex-wrap lg:gap-5 gap-3 items-center justify-between mx-5 mb-2.5 lg:mb-0">
         <li>
           <a href="#" className="hover:text-red-300">
             About Us
@@ -43,7 +43,7 @@ export function NavigationBar() {
             Contact
           </a>
         </li>
-        <li>
+        <li className="order-last lg:order-none">
           <div className="flex flex-row gap-5 items-start">
             <a href="#">
               <img
