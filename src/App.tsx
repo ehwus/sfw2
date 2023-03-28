@@ -5,10 +5,12 @@ import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <NavigationBar />
-      <DefaultPage />
-      <Footer />
+    <div className="w-full h-full bg-red-50">
+      <main className="max-w-screen-xl mx-auto">
+        <NavigationBar />
+        <DefaultPage />
+        <Footer />
+      </main>
     </div>
   );
 }
