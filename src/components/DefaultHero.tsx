@@ -8,9 +8,9 @@ export function DefaultHero() {
         alt="A poster like promotional image for our petition - it reads 'decriminalise sex work in Wales, safety first!'"
         className="max-h-96 lg:p-12 mx-auto"
       />
-      <aside className="flex flex-col p-12">
+      <aside className="flex flex-col lg:p-12 p-8">
         <h3 className="font-bold text-xl">#SAFETYFIRSTWALES</h3>
-        <p className="mt-5">
+        <p className="mt-5 text-justify">
           Safety First Wales (SFW) – a coalition of sex workers, health
           professionals, church representatives, anti-poverty, anti-violence,
           and migrant and trans rights campaigners -- formed to decriminalise

@@ -12,7 +12,7 @@ export function NavigationBar() {
         className="object-scale-down max-h-36 mx-auto lg:m-0"
         alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
       />
-      <ul className="flex flex-row flex-wrap lg:gap-5 gap-3 items-center justify-between mx-5 mb-2.5 lg:mb-0">
+      <ul className="flex flex-row flex-wrap lg:gap-5 gap-3 items-center justify-center mx-5 mb-2.5 lg:mb-0">
         <li>
           <a href="#" className="hover:text-red-300">
             About Us
@@ -43,23 +43,23 @@ export function NavigationBar() {
             Contact
           </a>
         </li>
-        <li className="order-last lg:order-none">
-          <div className="flex flex-row gap-5 items-start">
-            <a href="#">
-              <img
-                src={instagramLogo}
-                alt="Instagram Logo"
-                className="h-6 hover:opacity-25"
-              />
-            </a>
-            <a href="#">
-              <img
-                src={twitterLogo}
-                alt="Twitter Logo"
-                className="h-6 hover:opacity-25"
-              />
-            </a>
-          </div>
+        <li>
+          <a href="#">
+            <img
+              src={instagramLogo}
+              alt="Instagram Logo"
+              className="h-6 hover:opacity-25"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src={twitterLogo}
+              alt="Twitter Logo"
+              className="h-6 hover:opacity-25"
+            />
+          </a>
         </li>
         <li>
           <a
