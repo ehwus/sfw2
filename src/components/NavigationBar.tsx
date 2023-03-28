@@ -6,7 +6,7 @@ import globe from "../assets/globe-solid.svg";
 
 export function NavigationBar() {
   return (
-    <nav className="bg-red-50 w-full px-24 flex flex-row flex-wrap items-center justify-between border-black border-b">
+    <nav className="w-full px-24 flex flex-row flex-wrap items-center justify-between border-black border-b">
       <img
         src={logo}
         className="object-scale-down max-h-36"

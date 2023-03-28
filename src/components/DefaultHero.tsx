@@ -1,5 +1,4 @@
 import petitionImage from "../assets/petition-image.png";
-import { BlackBox } from "./BlackBox";
 
 export function DefaultHero() {
   return (
@@ -18,9 +17,13 @@ export function DefaultHero() {
           sex work in Wales and prioritise sex workers’ safety, health, and
           well-being.
         </p>
-        <div className="flex gap-28 mt-14">
-          <BlackBox text="Learn more" />
-          <BlackBox text="Sign the petition" />
+        <div className="flex flex-wrap gap-5 mt-14">
+          <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white">
+            Learn more
+          </button>
+          <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white ml">
+            Sign the petition
+          </button>
         </div>
       </aside>
     </section>

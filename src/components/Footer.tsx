@@ -7,7 +7,7 @@ export function Footer() {
   const currentYear = useMemo(() => new Date().getFullYear(), []);
 
   return (
-    <footer className="w-full bg-red-50 px-24 py-12 flex justify-between items-center">
+    <footer className="w-full px-24 py-12 flex justify-between items-center">
       <aside className="flex flex-col gap-0.5">
         <p>contact@safetyfirstwales.org</p>
         <div className="flex gap-2.5 justify-center">
