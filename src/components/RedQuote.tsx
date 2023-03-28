@@ -1,6 +1,6 @@
 export function RedQuote() {
   return (
-    <aside className="bg-red-600 py-24 px-40 w-full">
+    <aside className="bg-red-600 lg:py-24 lg:px-40 w-full p-12">
       <p className="text-white italic text-lg">
         “Criminalisation doesn’t work. Decriminalisation is safer for everyone,
         otherwise it goes underground. It’s still going to be there, no-one is
