@@ -1,5 +1,6 @@
 import petitionImage from "../assets/petition-image.png";
 import { BlackBox } from "./BlackBox";
+
 export function DefaultHero() {
   return (
     <section className="w-full bg-red-50 px-24 lg:flex lg:flex-row">

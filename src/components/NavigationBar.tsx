@@ -3,9 +3,10 @@ import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
 import down from "../assets/chevron-down-solid.svg";
 import globe from "../assets/globe-solid.svg";
+
 export function NavigationBar() {
   return (
-    <nav className="bg-red-50 w-full px-24 flex flex-row items-center justify-between border-black border-b">
+    <nav className="bg-red-50 w-full px-24 flex flex-row flex-wrap items-center justify-between border-black border-b">
       <img
         src={logo}
         className="object-scale-down max-h-36"
