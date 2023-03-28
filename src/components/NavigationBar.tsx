@@ -8,7 +8,7 @@ export function NavigationBar() {
     <nav className="bg-red-50 w-full px-24 flex flex-row items-center justify-between border-black border-b">
       <img
         src={logo}
-        className="object-scale-down h-36"
+        className="object-scale-down max-h-36"
         alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
       />
       <ul className="flex flex-row gap-10 items-center">
