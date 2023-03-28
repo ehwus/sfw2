@@ -6,7 +6,7 @@ export function DefaultHero() {
       <img
         src={petitionImage}
         alt="A poster like promotional image for our petition - it reads 'decriminalise sex work in Wales, safety first!'"
-        className="max-h-96 lg:p-12"
+        className="max-h-96 lg:p-12 mx-auto"
       />
       <aside className="flex flex-col p-12">
         <h3 className="font-bold text-xl">#SAFETYFIRSTWALES</h3>

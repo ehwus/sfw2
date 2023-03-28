@@ -8,8 +8,7 @@ export function Footer() {
 
   return (
     <footer className="bg-red-50 w-full h-64 lg:h-fit px-8 py-6 lg:px-24 lg:py-12 flex flex-col lg:flex-row justify-between items-center">
-      <aside className="flex flex-col gap-0.5">
-        <p>contact@safetyfirstwales.org</p>
+      <aside className="flex flex-col gap-1.5">
         <div className="flex gap-2.5 justify-center">
           <a href="#">
             <img src={instagramLogo} alt="Instagram logo" className="h-8" />
@@ -18,6 +17,7 @@ export function Footer() {
             <img src={twitterLogo} alt="Twitter logo" className="h-8" />
           </a>
         </div>
+        <p>contact@safetyfirstwales.org</p>
       </aside>
       <aside className="order-last lg:order-none">
         <p>© Safety First Wales {currentYear}</p>

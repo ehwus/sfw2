@@ -6,13 +6,13 @@ import globe from "../assets/globe-solid.svg";
 
 export function NavigationBar() {
   return (
-    <nav className="w-full px-24 flex flex-row flex-wrap items-center justify-between border-black border-b">
+    <nav className="w-full px-24 flex flex-row items-center justify-between border-black border-b">
       <img
         src={logo}
         className="object-scale-down max-h-36"
         alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
       />
-      <ul className="flex flex-row gap-10 items-center">
+      <ul className="flex flex-row gap-5 items-center">
         <li>
           <a href="#" className="hover:text-red-300">
             About Us
