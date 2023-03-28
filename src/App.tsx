@@ -3,6 +3,7 @@ import { NavigationBar } from "./components/NavigationBar";
 import { DefaultPage } from "./pages/DefaultPage";
 import { Footer } from "./components/Footer";
 import { About } from "./pages/About";
+import { GetInvolved } from "./pages/GetInvolved";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<DefaultPage />} />
           <Route path="/about" element={<About />} />
+          <Route path="/get-involved" element={<GetInvolved />} />
         </Routes>
         <Footer />
       </main>

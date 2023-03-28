@@ -37,9 +37,9 @@ export function NavigationBar() {
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-red-300">
+          <Link to="/get-involved" className="hover:text-red-300">
             Get Involved
-          </a>
+          </Link>
         </li>
         <li>
           <a href="#" className="hover:text-red-300">
