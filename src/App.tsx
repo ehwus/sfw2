@@ -1,4 +1,4 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import { NavigationBar } from "./components/NavigationBar";
 import { DefaultPage } from "./pages/DefaultPage";
 import { Footer } from "./components/Footer";
@@ -8,7 +8,9 @@ function App() {
     <div className="w-full h-full bg-red-50">
       <main className="max-w-screen-xl mx-auto">
         <NavigationBar />
-        <DefaultPage />
+        <Routes>
+          <Route path="/" element={<DefaultPage />} />
+        </Routes>
         <Footer />
       </main>
     </div>
