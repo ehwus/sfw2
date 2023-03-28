@@ -49,14 +49,14 @@ export function NavigationBar() {
               <img
                 src={instagramLogo}
                 alt="Instagram Logo"
-                className="h-8 hover:opacity-25"
+                className="h-6 hover:opacity-25"
               />
             </a>
             <a href="#">
               <img
                 src={twitterLogo}
                 alt="Twitter Logo"
-                className="h-8 hover:opacity-25"
+                className="h-6 hover:opacity-25"
               />
             </a>
           </div>
