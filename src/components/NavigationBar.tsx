@@ -13,32 +13,32 @@ export function NavigationBar() {
       />
       <ul className="flex flex-row gap-10 items-center">
         <li>
-          <a href="#" className="hover:text-gray-50">
+          <a href="#" className="hover:text-red-300">
             About Us
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-50">
+          <a href="#" className="hover:text-red-300">
             News
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-50">
+          <a href="#" className="hover:text-red-300">
             Briefing
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-50">
+          <a href="#" className="hover:text-red-300">
             Petition
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-50">
+          <a href="#" className="hover:text-red-300">
             Get Involved
           </a>
         </li>
         <li>
-          <a href="#" className="hover:text-gray-50">
+          <a href="#" className="hover:text-red-300">
             Contact
           </a>
         </li>
@@ -48,20 +48,23 @@ export function NavigationBar() {
               <img
                 src={instagramLogo}
                 alt="Instagram Logo"
-                className="h-8 hover:fill-gray-50"
+                className="h-8 hover:opacity-25"
               />
             </a>
             <a href="#">
               <img
                 src={twitterLogo}
                 alt="Twitter Logo"
-                className="h-8 hover:fill-gray-50"
+                className="h-8 hover:opacity-25"
               />
             </a>
           </div>
         </li>
         <li>
-          <a href="#" className="flex flex-row items-center gap-1.5">
+          <a
+            href="#"
+            className="flex flex-row items-center gap-1.5 hover:opacity-25"
+          >
             <img src={globe} alt="Image of a globe" className="h-5" />
             English
             <img src={down} alt="Down arrow on link" className="h-5" />
