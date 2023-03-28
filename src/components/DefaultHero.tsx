@@ -2,7 +2,7 @@ import petitionImage from "../assets/petition-image.png";
 
 export function DefaultHero() {
   return (
-    <section className="w-full bg-red-50 lg:px-24 lg:flex lg:flex-row">
+    <section className="w-full bg-red-50 lg:px-24 lg:flex lg:flex-row mx-auto">
       <img
         src={petitionImage}
         alt="A poster like promotional image for our petition - it reads 'decriminalise sex work in Wales, safety first!'"
