@@ -7,7 +7,7 @@ import { GetInvolved } from "./pages/GetInvolved";
 
 function App() {
   return (
-    <div className="w-full h-full bg-red-50">
+    <div className="min-w-screen min-h-screen bg-red-50">
       <main className="max-w-screen-xl mx-auto">
         <NavigationBar />
         <Routes>
