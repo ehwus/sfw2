@@ -5,9 +5,11 @@ import twitterLogo from "../assets/twitter.svg";
 import down from "../assets/chevron-down-solid.svg";
 import globe from "../assets/globe-solid.svg";
 import { Link } from "react-router-dom";
+import { useOutsideClick } from "../hooks/useOutsideClick";
 
 export function NavigationBar() {
   const [showBriefingDropDown, setShowBriefingDropDown] = useState(false);
+  const dropdownRef = useOutsideClick(() => setShowBriefingDropDown(false));
 
   return (
     <nav className="w-full lg:px-24 lg:flex lg:flex-row items-center justify-between border-black border-b">
@@ -32,6 +34,7 @@ export function NavigationBar() {
         <li
           onMouseEnter={() => setShowBriefingDropDown(true)}
           onMouseLeave={() => setShowBriefingDropDown(false)}
+          ref={dropdownRef}
         >
           <a
             href="#"
@@ -43,7 +46,7 @@ export function NavigationBar() {
           <div
             className={`${
               showBriefingDropDown ? "" : "hidden"
-            } absolute flex flex-col bg-red-300 p-3 rounded-md transition-transform`}
+            } absolute flex flex-col bg-red-300 p-3 rounded-md`}
           >
             <a href="#" className="hover:text-white">
               Briefing
