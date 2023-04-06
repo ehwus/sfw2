@@ -91,16 +91,6 @@ export function NavigationBar() {
             />
           </a>
         </li>
-        <li>
-          <a
-            href="#"
-            className="flex flex-row items-center gap-1.5 hover:opacity-25"
-          >
-            <img src={globe} alt="Image of a globe" className="h-5" />
-            English
-            <img src={down} alt="Down arrow on link" className="h-5" />
-          </a>
-        </li>
       </ul>
     </nav>
   );
