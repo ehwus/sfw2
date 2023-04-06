@@ -10,11 +10,12 @@ import { Briefing } from "./pages/Briefing";
 import ScrollToTop from "./components/ScrollToTop";
 import { Contact } from "./pages/Contact";
 import { Petition } from "./pages/Petition";
+import "./App.css";
 
 function App() {
   return (
     <div className="min-w-screen min-h-screen bg-red-50">
-      <main className="max-w-screen-xl mx-auto">
+      <main className="flex flex-col max-w-screen-xl mx-auto">
         <ScrollToTop />
         <NavigationBar />
         <Routes>
