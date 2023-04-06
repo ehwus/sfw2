@@ -73,18 +73,20 @@ export function Petition() {
           formed to decriminalise sex work in Wales and prioritise sex workers’
           safety, health, and well-being.
         </p>
-        {navigator.share && navigator.canShare() && (
+        {navigator.share && (
           <button
             onClick={() => {
-              navigator.share({
-                title: "Sign the Safety First Wales petition!",
-                text: `Safety First Wales (SFW) – a coalition of sex workers, health
+              if (navigator.share) {
+                navigator.share({
+                  title: "Sign the Safety First Wales petition!",
+                  text: `Safety First Wales (SFW) – a coalition of sex workers, health
           professionals, church representatives, anti-poverty, anti-violence,
           and migrant and trans rights campaigners -- formed to decriminalise
           sex work in Wales and prioritise sex workers’ safety, health, and
           well-being.`,
-                url: window.location.href,
-              });
+                  url: window.location.href,
+                });
+              }
             }}
             className="border-2 border-black rounded-full py-2.5 px-6 mx-auto"
           >
