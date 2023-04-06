@@ -25,9 +25,12 @@ export function DefaultHero() {
           >
             Learn more
           </Link>
-          <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75">
+          <Link
+            to="/petition"
+            className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75"
+          >
             Sign the petition
-          </button>
+          </Link>
         </div>
       </aside>
     </section>
