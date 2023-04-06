@@ -57,9 +57,9 @@ export function NavigationBar() {
           </div>
         </li>
         <li>
-          <a href="#" className="hover:text-red-300">
+          <Link to="/petition" className="hover:text-red-300">
             Petition
-          </a>
+          </Link>
         </li>
         <li>
           <Link to="/get-involved" className="hover:text-red-300">

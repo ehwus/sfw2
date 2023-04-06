@@ -9,6 +9,7 @@ import { Proposals } from "./pages/Proposals";
 import { Briefing } from "./pages/Briefing";
 import ScrollToTop from "./components/ScrollToTop";
 import { Contact } from "./pages/Contact";
+import { Petition } from "./pages/Petition";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/proposals" element={<Proposals />} />
           <Route path="/briefing" element={<Briefing />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/petition" element={<Petition />} />
         </Routes>
         <Footer />
       </main>
