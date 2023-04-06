@@ -8,6 +8,7 @@ import { News } from "./pages/News";
 import { Proposals } from "./pages/Proposals";
 import { Briefing } from "./pages/Briefing";
 import ScrollToTop from "./components/ScrollToTop";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/proposals" element={<Proposals />} />
           <Route path="/briefing" element={<Briefing />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </main>

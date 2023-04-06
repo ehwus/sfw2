@@ -67,9 +67,9 @@ export function NavigationBar() {
           </Link>
         </li>
         <li>
-          <a href="#" className="hover:text-red-300">
+          <Link to="/contact" className="hover:text-red-300">
             Contact
-          </a>
+          </Link>
         </li>
         <li>
           <a href="#">
