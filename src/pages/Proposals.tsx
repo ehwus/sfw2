@@ -5,7 +5,7 @@ export function Proposals() {
         PROPOSALS FOR CHANGE
       </h3>
       <article className="lg:p-24 flex flex-col gap-5 m-5">
-        <p>
+        <p className="text-justify">
           <b>Implement an amnesty from arrest</b> to protect sex workers who
           report witnessing or experiencing violence. A sex worker-led campaign
           won such an amnesty in California. In cities across the US (Baltimore,
@@ -13,7 +13,7 @@ export function Proposals() {
           Attorneys are refusing to prosecute sex workers in recognition of the
           harm caused by criminalisation.
         </p>
-        <p>
+        <p className="text-justify">
           <b>Amend National Police Chiefs’ Council guidelines</b> to specify
           that arrests and raids should only occur where police can show
           reasonable grounds to suspect that sex workers are being subject to
@@ -21,7 +21,7 @@ export function Proposals() {
           criminalised “simply for being sex workers” or engaging in practices
           that increase their own safety.
         </p>
-        <p>
+        <p className="text-justify">
           <b>
             Instruct the police, prosecuting authorities and courts to
             prioritise safety
@@ -29,7 +29,7 @@ export function Proposals() {
           by vigorously investigating and prosecuting rape, coercion, stalking
           and other violence.
         </p>
-        <p>
+        <p className="text-justify">
           <b>
             Target resources at sex workers to enable them to leave prostitution
             if they choose.
@@ -38,14 +38,14 @@ export function Proposals() {
           services, improved domestic violence services and instructing benefit
           decision makers to not impose sanctions.
         </p>
-        <p>
+        <p className="text-justify">
           <b>Extend to mothers as a “care income”</b>, the recently announced
           payment of £1600 a month for young people leaving care in recognition
           of the fact that most sex workers are working to support families.
           Hawaii passed a law in January to pay a basic income of $2000 a month
           to sex workers aiming to exit prostitution.
         </p>
-        <p>
+        <p className="text-justify">
           <b>
             Take action to stop sex working mothers losing custody of their
             children
@@ -54,12 +54,12 @@ export function Proposals() {
           the family is poor, homeless or unable to afford food, clothing or
           childcare.
         </p>
-        <p>
+        <p className="text-justify">
           <b>Scrap the No Recourse to Public Funds (NRPF) condition</b> which
           disproportionately affects women and leaves them destitute and at risk
           of exploitation and violence.
         </p>
-        <p>
+        <p className="text-justify">
           <b>
             Implement a &apos;firewall&apos; to separate police investigations
             and labour inspections from Immigration Enforcement
@@ -67,7 +67,7 @@ export function Proposals() {
           , to ensure migrant sex workers can report violence regardless of
           their immigration status
         </p>
-        <p>
+        <p className="text-justify">
           <b>
             Oppose Clause 16 (Schedule 7 – Priority Offences) of the Online
             Safety Bill
@@ -76,11 +76,11 @@ export function Proposals() {
           has been shown to increase the risks for sex workers and make it
           harder to work independently.
         </p>
-        <p>
+        <p className="text-justify">
           <b>Oppose the criminalisation of sex workers’ clients</b> (so called
           ‘Nordic model’) as this undermines sex workers’ safety.
         </p>
-        <p>
+        <p className="text-justify">
           <b>
             Support demands nationally for the decriminalisation of sex work.
           </b>{" "}
@@ -90,7 +90,7 @@ export function Proposals() {
           workers more able to leave prostitution as convictions are cleared
           from their records; drug users treated as patients not criminals.
         </p>
-        <p>
+        <p className="text-justify">
           As an immediate first step, the 2016 parliamentary Home Affairs
           Committee recommendation could be implemented to decriminalise sex
           workers on the street and working together in premises and expunge
