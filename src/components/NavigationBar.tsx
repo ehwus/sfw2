@@ -2,7 +2,7 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useOutsideClick } from "../hooks/useOutsideClick";
 
 export function NavigationBar() {
@@ -22,14 +22,24 @@ export function NavigationBar() {
       </Link>
       <ul className="flex flex-row flex-wrap lg:gap-5 gap-3 items-center justify-center mx-5 mb-2.5 lg:mb-0">
         <li>
-          <Link to="/about" className="hover:text-red-300">
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "text-red-300" : "hover:text-red-300"
+            }
+          >
             About Us
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/news" className="hover:text-red-300">
+          <NavLink
+            to="/news"
+            className={({ isActive }) =>
+              isActive ? "text-red-300" : "hover:text-red-300"
+            }
+          >
             News
-          </Link>
+          </NavLink>
         </li>
         <li
           onMouseEnter={() => setShowBriefingDropDown(true)}
@@ -57,19 +67,34 @@ export function NavigationBar() {
           </div>
         </li>
         <li>
-          <Link to="/petition" className="hover:text-red-300">
+          <NavLink
+            to="/petition"
+            className={({ isActive }) =>
+              isActive ? "text-red-300" : "hover:text-red-300"
+            }
+          >
             Petition
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/get-involved" className="hover:text-red-300">
+          <NavLink
+            to="/get-involved"
+            className={({ isActive }) =>
+              isActive ? "text-red-300" : "hover:text-red-300"
+            }
+          >
             Get Involved
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact" className="hover:text-red-300">
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? "text-red-300" : "hover:text-red-300"
+            }
+          >
             Contact
-          </Link>
+          </NavLink>
         </li>
         <li>
           <a href="#">
