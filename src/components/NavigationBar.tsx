@@ -51,9 +51,9 @@ export function NavigationBar() {
             <a href="#" className="hover:text-white">
               Briefing
             </a>
-            <a href="#" className="hover:text-white">
+            <Link to="/proposals" className="hover:text-white">
               Proposals for change
-            </a>
+            </Link>
           </div>
         </li>
         <li>

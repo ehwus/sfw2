@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer";
 import { About } from "./pages/About";
 import { GetInvolved } from "./pages/GetInvolved";
 import { News } from "./pages/News";
+import { Proposals } from "./pages/Proposals";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/news" element={<News />} />
+          <Route path="/proposals" element={<Proposals />} />
         </Routes>
         <Footer />
       </main>
