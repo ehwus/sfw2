@@ -1,3 +1,4 @@
+import { useState } from "react";
 import logo from "../assets/logo.png";
 import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
@@ -6,6 +7,8 @@ import globe from "../assets/globe-solid.svg";
 import { Link } from "react-router-dom";
 
 export function NavigationBar() {
+  const [showBriefingDropDown, setShowBriefingDropDown] = useState(false);
+
   return (
     <nav className="w-full lg:px-24 lg:flex lg:flex-row items-center justify-between border-black border-b">
       <Link to="/">
@@ -26,10 +29,29 @@ export function NavigationBar() {
             News
           </a>
         </li>
-        <li>
-          <a href="#" className="hover:text-red-300">
+        <li
+          onMouseEnter={() => setShowBriefingDropDown(true)}
+          onMouseLeave={() => setShowBriefingDropDown(false)}
+        >
+          <a
+            href="#"
+            className="hover:text-red-300"
+            onClick={() => setShowBriefingDropDown(!showBriefingDropDown)}
+          >
             Briefing
           </a>
+          <div
+            className={`${
+              showBriefingDropDown ? "" : "hidden"
+            } absolute flex flex-col bg-red-300 p-3 rounded-md transition-transform`}
+          >
+            <a href="#" className="hover:text-white">
+              Briefing
+            </a>
+            <a href="#" className="hover:text-white">
+              Proposals for change
+            </a>
+          </div>
         </li>
         <li>
           <a href="#" className="hover:text-red-300">
