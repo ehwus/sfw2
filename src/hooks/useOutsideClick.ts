@@ -1,7 +1,7 @@
 import React from "react";
 
-export function useOutsideClick(callback: () => void) {
-  const ref = React.useRef<HTMLElement>(null);
+export function useOutsideClick<T extends HTMLElement>(callback: () => void) {
+  const ref = React.useRef<T>(null);
 
   React.useEffect(() => {
     const handleClick = (event: any) => {

@@ -9,7 +9,9 @@ import { useOutsideClick } from "../hooks/useOutsideClick";
 
 export function NavigationBar() {
   const [showBriefingDropDown, setShowBriefingDropDown] = useState(false);
-  const dropdownRef = useOutsideClick(() => setShowBriefingDropDown(false));
+  const dropdownRef = useOutsideClick<HTMLLIElement>(() =>
+    setShowBriefingDropDown(false)
+  );
 
   return (
     <nav className="w-full lg:px-24 lg:flex lg:flex-row items-center justify-between border-black border-b">
