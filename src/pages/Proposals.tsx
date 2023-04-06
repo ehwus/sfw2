@@ -5,6 +5,9 @@ export function Proposals() {
         PROPOSALS FOR CHANGE
       </h3>
       <article className="lg:p-24 flex flex-col gap-5 m-5">
+        <h4 className="text-lg font-extrabold">
+          SAFETY FIRST WALES PROPOSALS FOR CHANGE
+        </h4>
         <p className="text-justify">
           <b>Implement an amnesty from arrest</b> to protect sex workers who
           report witnessing or experiencing violence. A sex worker-led campaign
@@ -96,7 +99,7 @@ export function Proposals() {
           workers on the street and working together in premises and expunge
           criminal records.
         </p>
-        <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75 mx-auto">
+        <button className="border-2 border-black mx-auto py-4 px-8 rounded-full hover:opacity-75">
           See full briefing here
         </button>
       </article>
