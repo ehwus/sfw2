@@ -7,11 +7,13 @@ import { GetInvolved } from "./pages/GetInvolved";
 import { News } from "./pages/News";
 import { Proposals } from "./pages/Proposals";
 import { Briefing } from "./pages/Briefing";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="min-w-screen min-h-screen bg-red-50">
       <main className="max-w-screen-xl mx-auto">
+        <ScrollToTop />
         <NavigationBar />
         <Routes>
           <Route path="/" element={<DefaultPage />} />

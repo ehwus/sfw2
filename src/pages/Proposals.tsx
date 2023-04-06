@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Proposals() {
   return (
     <section className="w-full flex flex-col lg:flex-row">
@@ -99,9 +101,12 @@ export function Proposals() {
           workers on the street and working together in premises and expunge
           criminal records.
         </p>
-        <button className="border-2 border-black mx-auto py-4 px-8 rounded-full hover:opacity-75">
+        <Link
+          to="/briefing"
+          className="border-2 border-black mx-auto py-4 px-8 rounded-full hover:opacity-75"
+        >
           See full briefing here
-        </button>
+        </Link>
       </article>
     </section>
   );
