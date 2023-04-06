@@ -27,9 +27,9 @@ export function NavigationBar() {
           </Link>
         </li>
         <li>
-          <a href="#" className="hover:text-red-300">
+          <Link to="/news" className="hover:text-red-300">
             News
-          </a>
+          </Link>
         </li>
         <li
           onMouseEnter={() => setShowBriefingDropDown(true)}
@@ -46,7 +46,7 @@ export function NavigationBar() {
           <div
             className={`${
               showBriefingDropDown ? "" : "hidden"
-            } absolute flex flex-col bg-red-300 p-3 rounded-md`}
+            } absolute flex flex-col bg-red-300 p-3 rounded-md drop-shadow-md`}
           >
             <a href="#" className="hover:text-white">
               Briefing

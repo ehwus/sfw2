@@ -4,6 +4,7 @@ import { DefaultPage } from "./pages/DefaultPage";
 import { Footer } from "./components/Footer";
 import { About } from "./pages/About";
 import { GetInvolved } from "./pages/GetInvolved";
+import { News } from "./pages/News";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<DefaultPage />} />
           <Route path="/about" element={<About />} />
           <Route path="/get-involved" element={<GetInvolved />} />
+          <Route path="/news" element={<News />} />
         </Routes>
         <Footer />
       </main>
