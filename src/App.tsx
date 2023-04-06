@@ -6,6 +6,7 @@ import { About } from "./pages/About";
 import { GetInvolved } from "./pages/GetInvolved";
 import { News } from "./pages/News";
 import { Proposals } from "./pages/Proposals";
+import { Briefing } from "./pages/Briefing";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/get-involved" element={<GetInvolved />} />
           <Route path="/news" element={<News />} />
           <Route path="/proposals" element={<Proposals />} />
+          <Route path="/briefing" element={<Briefing />} />
         </Routes>
         <Footer />
       </main>

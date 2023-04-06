@@ -48,9 +48,9 @@ export function NavigationBar() {
               showBriefingDropDown ? "" : "hidden"
             } absolute flex flex-col bg-red-300 p-3 rounded-md drop-shadow-md`}
           >
-            <a href="#" className="hover:text-white">
+            <Link to="/briefing" className="hover:text-white">
               Briefing
-            </a>
+            </Link>
             <Link to="/proposals" className="hover:text-white">
               Proposals for change
             </Link>
