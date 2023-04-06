@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import petitionImage from "../assets/petition-image.png";
 
 export function DefaultHero() {
@@ -18,10 +19,13 @@ export function DefaultHero() {
           well-being.
         </p>
         <div className="flex flex-wrap gap-5 mt-14 justify-center">
-          <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white">
+          <Link
+            to="/about"
+            className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75"
+          >
             Learn more
-          </button>
-          <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white">
+          </Link>
+          <button className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75">
             Sign the petition
           </button>
         </div>

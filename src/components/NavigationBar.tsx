@@ -2,8 +2,6 @@ import { useState } from "react";
 import logo from "../assets/logo.png";
 import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
-import down from "../assets/chevron-down-solid.svg";
-import globe from "../assets/globe-solid.svg";
 import { Link } from "react-router-dom";
 import { useOutsideClick } from "../hooks/useOutsideClick";
 

@@ -5,7 +5,6 @@ export function useOutsideClick<T extends HTMLElement>(callback: () => void) {
 
   React.useEffect(() => {
     const handleClick = (event: any) => {
-      console.log(event);
       if (ref.current && !ref.current.contains(event.target)) {
         callback();
       }
