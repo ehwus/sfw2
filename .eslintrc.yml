@@ -18,6 +18,7 @@ rules:
     - extensions:
         - .tsx
   react/react-in-jsx-scope: off
+  react/no-unescaped-entities: off
   semi: 2 
 env:
   browser: true
