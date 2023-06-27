@@ -1,6 +1,14 @@
 import React, { useContext, useState } from "react";
 
+const LANGUAGE_STORAGE_KEY = "language";
 type Language = "English" | "Cymraeg";
+
+const savedLanguage = localStorage.getItem(LANGUAGE_STORAGE_KEY) || "";
+
+const initialLanguage =
+  savedLanguage === "English" || savedLanguage === "Cymraeg"
+    ? savedLanguage
+    : "English";
 
 const BilingualismContext = React.createContext<{
   language: Language;
@@ -16,7 +24,7 @@ export function BilingualismProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [language, setLanguage] = useState<Language>("English");
+  const [language, setLanguage] = useState<Language>(initialLanguage);
 
   return (
     <BilingualismContext.Provider value={{ language, update: setLanguage }}>
@@ -27,8 +35,10 @@ export function BilingualismProvider({
 
 export function useBilingualism() {
   const { language, update } = useContext(BilingualismContext);
-  const switchLanguage = () =>
+  function switchLanguage() {
     update(language === "English" ? "Cymraeg" : "English");
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+  }
 
   return { language, switchLanguage };
 }
