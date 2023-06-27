@@ -21,13 +21,13 @@ export function DefaultHeroWelsh() {
         <div className="flex flex-wrap gap-5 mt-14 justify-center">
           <Link
             to="/about"
-            className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75"
+            className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75 w-56"
           >
             Dysgwch fwy
           </Link>
           <Link
             to="/petition"
-            className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75"
+            className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white hover:opacity-75 w-56"
           >
             Llofnodwch y ddeiseb
           </Link>
