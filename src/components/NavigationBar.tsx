@@ -19,7 +19,7 @@ export function NavigationBar() {
       <Link to="/">
         <img
           src={logo}
-          className="object-scale-down max-h-36 mx-auto lg:m-0"
+          className="object-scale-down max-h-28 mx-auto lg:m-0"
           alt="Safety First Wales logo - a red umbrella reading Safety First Wales over S1W"
         />
       </Link>
