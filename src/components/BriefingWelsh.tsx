@@ -3,14 +3,14 @@ export function BriefingWelsh() {
     <>
       <div className="flex flex-col md:flex-row gap-6 items-center mx-auto md:mx-0 justify-items-center">
         <h3 className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white w-40 h-11 mx-auto mt-5 lg:m-10">
-          BRIEFING
+          BRIFF
         </h3>
         <a
-          href="briefing.pdf"
+          href="briefing-welsh.pdf"
           target="_blank"
           className="border-2 border-black rounded-full py-2.5 px-6"
         >
-          DOWNLOAD PDF
+          LAWRLWYTHO PDF
         </a>
       </div>
 
