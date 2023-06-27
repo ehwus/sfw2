@@ -10,7 +10,11 @@ export function Petition() {
           {language === "English" ? "PETITION" : "DEISEB"}
         </h3>
         <a
-          href="https://forms.gle/tTAobzFzZqW8DLSh9"
+          href={
+            language === "English"
+              ? "https://forms.gle/tTAobzFzZqW8DLSh9"
+              : "https://forms.gle/GaDyVZVuS38Xcv9m6"
+          }
           rel="noreferrer"
           target="_blank"
           className="border-2 border-black rounded-full py-2.5 px-6 hover:opacity-75"
