@@ -31,7 +31,7 @@ export function NavigationBar() {
               isActive ? "text-red-300" : "hover:text-red-300"
             }
           >
-            About Us
+            {language === "English" ? "About Us" : "Amdanom ni"}
           </NavLink>
         </li>
         <li>
@@ -41,7 +41,7 @@ export function NavigationBar() {
               isActive ? "text-red-300" : "hover:text-red-300"
             }
           >
-            News
+            {language === "English" ? "News" : "Newyddion"}
           </NavLink>
         </li>
         <li
@@ -54,7 +54,7 @@ export function NavigationBar() {
             className="hover:text-red-300"
             onClick={() => setShowBriefingDropDown(!showBriefingDropDown)}
           >
-            Briefing
+            {language === "English" ? "Briefing" : "Briff"}
           </a>
           <div
             className={`${
@@ -62,10 +62,12 @@ export function NavigationBar() {
             } absolute flex flex-col bg-red-300 p-3 rounded-md`}
           >
             <Link to="/briefing" className="hover:text-white">
-              Briefing
+              {language === "English" ? "Briefing" : "Briff"}
             </Link>
             <Link to="/proposals" className="hover:text-white">
-              Proposals for change
+              {language === "English"
+                ? "Proposals for change"
+                : "Cynigion i newid"}
             </Link>
           </div>
         </li>
@@ -76,7 +78,7 @@ export function NavigationBar() {
               isActive ? "text-red-300" : "hover:text-red-300"
             }
           >
-            Petition
+            {language === "English" ? "Petition" : "Deiseb"}
           </NavLink>
         </li>
         <li>
@@ -86,7 +88,7 @@ export function NavigationBar() {
               isActive ? "text-red-300" : "hover:text-red-300"
             }
           >
-            Get Involved
+            {language === "English" ? "Get Involved" : "Cymerwch ran"}
           </NavLink>
         </li>
         <li>
@@ -96,7 +98,7 @@ export function NavigationBar() {
               isActive ? "text-red-300" : "hover:text-red-300"
             }
           >
-            Contact
+            {language === "English" ? "Contact" : "Cysylltwch â ni"}
           </NavLink>
         </li>
         <li>
