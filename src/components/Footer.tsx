@@ -6,7 +6,7 @@ export function Footer() {
   const currentYear = useMemo(() => new Date().getFullYear(), []);
 
   return (
-    <footer className="bg-red-100 w-full h-64 lg:h-fit px-8 py-6 lg:px-24 lg:py-12 flex flex-col lg:flex-row justify-between items-center mt-auto">
+    <footer className="bg-red-100 w-full h-64 lg:h-fit px-8 py-6 lg:px-24 lg:py-12 flex flex-col lg:flex-row justify-around items-center mt-auto">
       <aside className="flex flex-col gap-1.5">
         <div className="flex gap-2.5 justify-center">
           <a
