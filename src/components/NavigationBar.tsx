@@ -102,7 +102,11 @@ export function NavigationBar() {
           </NavLink>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/safety1stwales/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={instagramLogo}
               alt="Instagram Logo"
@@ -111,7 +115,11 @@ export function NavigationBar() {
           </a>
         </li>
         <li>
-          <a href="#">
+          <a
+            href="https://twitter.com/safety1stwales"
+            target="_blank"
+            rel="noreferrer"
+          >
             <img
               src={twitterLogo}
               alt="Twitter Logo"
