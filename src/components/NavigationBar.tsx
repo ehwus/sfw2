@@ -4,8 +4,11 @@ import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
 import { Link, NavLink } from "react-router-dom";
 import { useOutsideClick } from "../hooks/useOutsideClick";
+import globe from "../assets/globe-solid.svg";
+import { useBilingualism } from "../hooks/useBilingalism";
 
 export function NavigationBar() {
+  const { language, switchLanguage } = useBilingualism();
   const [showBriefingDropDown, setShowBriefingDropDown] = useState(false);
   const dropdownRef = useOutsideClick<HTMLLIElement>(() =>
     setShowBriefingDropDown(false)
@@ -113,6 +116,21 @@ export function NavigationBar() {
               className="h-6 hover:opacity-25"
             />
           </a>
+        </li>
+        <li>
+          <button
+            className="border border-black py-1 px-2.5 flex items-center justify-center gap-1"
+            onClick={() => switchLanguage()}
+          >
+            <>
+              <img
+                src={globe}
+                className="h-5"
+                alt="Switch the page's language between English and Welsh"
+              />
+              {language === "English" ? "Cymraeg" : "English"}
+            </>
+          </button>
         </li>
       </ul>
     </nav>
