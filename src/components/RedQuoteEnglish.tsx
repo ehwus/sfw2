@@ -1,4 +1,4 @@
-export function RedQuote() {
+export function RedQuoteEnglish() {
   return (
     <aside className="bg-red-600 lg:py-24 lg:px-40 w-full p-12">
       <p className="text-white text-justify italic text-lg">

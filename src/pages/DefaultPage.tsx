@@ -1,7 +1,8 @@
 import { DefaultHeroEnglish } from "../components/DefaultHeroEnglish";
-import { RedQuote } from "../components/RedQuote";
+import { RedQuoteEnglish } from "../components/RedQuoteEnglish";
 import { useBilingualism } from "../hooks/useBilingalism";
 import { DefaultHeroWelsh } from "../components/DefaultHeroWelsh";
+import { RedQuoteWelsh } from "../components/RedQuoteWelsh";
 
 export function DefaultPage() {
   const { language } = useBilingualism();
@@ -9,7 +10,7 @@ export function DefaultPage() {
   return (
     <>
       {language == "English" ? <DefaultHeroEnglish /> : <DefaultHeroWelsh />}
-      <RedQuote />
+      {language == "English" ? <RedQuoteEnglish /> : <RedQuoteWelsh />}
     </>
   );
 }
