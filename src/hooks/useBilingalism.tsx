@@ -36,8 +36,9 @@ export function BilingualismProvider({
 export function useBilingualism() {
   const { language, update } = useContext(BilingualismContext);
   function switchLanguage() {
-    update(language === "English" ? "Cymraeg" : "English");
-    localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+    const newLanguage = language === "English" ? "Cymraeg" : "English";
+    update(newLanguage);
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, newLanguage);
   }
 
   return { language, switchLanguage };
