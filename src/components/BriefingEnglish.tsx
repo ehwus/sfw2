@@ -15,27 +15,22 @@ export function BriefingEnglish() {
       </div>
 
       <article className="flex flex-col gap-5 mx-2.5 mt-2.5 lg:mx-10 mb-5">
-        <h4 className="text-lg font-extrabold">
-          DECRIMINALISATION OF SEX WORK IN WALES:
-        </h4>
-        <ul>
-          <li>► Improving safety and health.</li>
-          <li>► Addressing poverty, violence, and discrimination.</li>
-        </ul>
+        <h4 className="text-lg font-extrabold italic">INTRODUCTION</h4>
         <p className="text-justify">
-          Issued by: Safety First Wales (SFW) – a coalition of sex workers,
-          health professionals, church representatives, anti-poverty,
-          anti-violence, and trans rights campaigners -- formed to decriminalise
+          Safety First Wales (SFW) is a coalition of sex workers, health
+          professionals, church representatives, anti-poverty, anti-violence,
+          anti-racist and trans rights campaigners -- formed to decriminalise
           sex work in Wales and prioritise sex workers’ safety, health, and
           well-being.
         </p>
         <p className="text-justify">
-          This report includes testimony from sex workers who either a) attended
-          the first meeting of SFW, b) participated in research conducted by
-          Swansea University or c) are part of the network of the English
-          Collective of Prostitutes in Wales.
+          This briefing provides information and evidence primarily about the
+          situation and context of sex work in Wales with some references to the
+          rest of the UK. It includes testimony from sex workers who either a)
+          attended the first meeting of SFW, b) participated in research
+          conducted by Swansea University or c) are part of the network of the
+          English Collective of Prostitutes in Wales.
         </p>
-        <h5 className="font-bold italic">CURRENT SITUATION</h5>
         <p className="text-justify">
           There are approximately 72,800 sex workers in the UK. In Wales it is
           estimated that there are at least 2471 sex workers. This includes 1195
@@ -51,7 +46,14 @@ export function BriefingEnglish() {
           Nationally, the majority of sex workers are women (85-90%), most of
           whom are mothers working to support families.
         </p>
-        <h5 className="font-bold italic">POVERTY AND HOMELESSNESS</h5>
+        <p className="text-justify">
+          The following information is divided into various categories based on
+          what sex workers raised as their main concerns.
+        </p>
+
+        <h4 className="text-lg font-extrabold italic">
+          POVERTY AND HOMELESSNESS
+        </h4>
         <p className="text-justify">
           Prostitution is increasing throughout the UK because poverty is
           increasing. Colossal rises in energy bills, food and other essential
@@ -131,7 +133,10 @@ export function BriefingEnglish() {
           to generate income and avoid destitution and homelessness for
           themselves and their families.
         </p>
-        <h5 className="font-bold italic">CRIMINALISATION AND POLICING</h5>
+
+        <h4 className="text-lg font-extrabold italic">
+          CRIMINALISATION AND POLICING
+        </h4>
         <p className="text-justify">
           Under the prostitution laws hundreds of sex workers in the UK are
           threatened with arrest, raided, prosecuted, and even imprisoned each
@@ -186,10 +191,10 @@ export function BriefingEnglish() {
           <p className="mx-5 lg:mx-36">
             <i>
               “The police have been harassing me since I was a teenager. When I
-              was young and wasn&apos;t working, me and a friend were hanging
-              around and a client pulled up in a car. He offered money and I
-              knew that my friend did that sometimes so I waved over to her. The
-              police tried to arrest me for pimping.”
+              was young and wasn't working, me and a friend were hanging around
+              and a client pulled up in a car. He offered money and I knew that
+              my friend did that sometimes so I waved over to her. The police
+              tried to arrest me for pimping.”
             </i>
           </p>
         </blockquote>
@@ -225,7 +230,7 @@ export function BriefingEnglish() {
             </i>
           </p>
         </blockquote>
-        <p className="justify-text">
+        <p className="text-justify">
           These quotes reveal the different forms that sex workers’ interactions
           with the police can take. They draw attention to the violence that can
           be experienced by sex workers at the hands of the police. Little
@@ -233,13 +238,13 @@ export function BriefingEnglish() {
           in East London which found that 42% of street workers had suffered
           violence from the police.
         </p>
-        <p className="justify-text">
+        <p className="text-justify">
           Additionally, these quotes demonstrate how the identification of
           individuals as sex workers by the police can prevent them from
           accessing jobs in other areas of the labour market, leading to a
           further reliance on sex work to generate income.
         </p>
-        <p className="justify-text">
+        <p className="text-justify">
           Current legislation and law related to sex work and prostitution
           simply do not work and calls to increase the criminalisation of sex
           work by criminalising sex workers clients must be opposed because it
@@ -251,7 +256,7 @@ export function BriefingEnglish() {
           claims that the law has led to a decline in prostitution, there is no
           actual evidence of this.
         </p>
-        <p className="justify-text">
+        <p className="text-justify">
           The decriminalisation of sex work is rooted in the principles of
           promoting safety, reducing harm and enhancing the well-being of those
           engaged in sex work. Decriminalisation, is supported not only by sex
@@ -262,22 +267,23 @@ export function BriefingEnglish() {
           Watch, UNAIDS, International Lesbian, Gay, Bisexual, Trans and
           Intersex Association, Global Alliance Against Traffic in Women.
         </p>
-        <h5 className="font-bold italic">VIOLENCE</h5>
-        <p className="justify-text">
+
+        <h4 className="text-lg font-extrabold italic">VIOLENCE</h4>
+        <p className="text-justify">
           Sex workers face high levels of violence, and criminalisation
           exacerbates the harms sex workers suffer. A report from Swansea
           University’s Centre for Criminology and Criminal Justice shows
           shocking levels of violence experienced by street-based sex workers in
           Cardiff.
         </p>
-        <p className="justify-text">
+        <p className="text-justify">
           It is much safer for sex workers to work indoors and with others but,
           under brothel keeping laws, it is illegal. Research shows that where
           arrests of sex workers and clients were high, fewer women report
           violence. When women do report violence, they often face prosecution
           for sex work while little is done to catch their attackers.
         </p>
-        <p className="justify-text">
+        <p className="text-justify">
           When police prioritise prosecution over protection violent men are
           given impunity to attack again. Women Against Rape point to the fact
           that rape has been effectively decriminalised. Prosecutions for
@@ -306,9 +312,10 @@ export function BriefingEnglish() {
             </i>
           </p>
         </blockquote>
-        <h5 className="font-bold italic">
-          SEX-WORKING MOTHERS’ EXPERIENCE OF SOCIAL SERVICES
-        </h5>
+
+        <h4 className="text-lg font-extrabold italic">
+          MOTHERS’ EXPERIENCE OF SOCIAL SERVICES
+        </h4>
         <p className="text-justify">
           Sex workers are frequently labelled bad mothers with the assumption
           that they are a risk to themselves and their children. This is
@@ -376,23 +383,8 @@ export function BriefingEnglish() {
             </i>
           </p>
         </blockquote>
-        <p className="text-justify">
-          One of the mums in Safety First Wales also spoke to the media about
-          her experience of discrimination:
-        </p>
-        <blockquote>
-          <p className="mx-5 lg:mx-36">
-            <i>
-              “My dad took me to the appointment and told me how smart I
-              looked,” … “But when I got the typed version of the assessment
-              written up, I was horrified because in the first few lines, the
-              assessor said I was dressed provocatively. I was astounded. He
-              knew I was a sex worker and I think it is one of the reasons he
-              noted I dressed provocatively.”
-            </i>
-          </p>
-        </blockquote>
-        <h5 className="font-bold italic">TRAFFICKING</h5>
+
+        <h4 className="text-lg font-extrabold italic">TRAFFICKING</h4>
         <p className="text-justify">
           Trafficking laws are used as a justification for police crackdowns on
           migrant sex workers for arrest and deportation and have distorted the
@@ -414,8 +406,8 @@ export function BriefingEnglish() {
         <p className="text-justify">
           Evidence published by The Lancet, credible research institutions and
           practitioners indicates that there is no causal relationship between
-          criminalisation of sex work and reduction in trafficking or sexual
-          exploitation.
+          the criminalisation of sex work and a reduction in trafficking or
+          sexual exploitation.
         </p>
         <blockquote>
           <p className="mx-5 lg:mx-36">
@@ -441,7 +433,8 @@ export function BriefingEnglish() {
             - [Health Worker]
           </p>
         </blockquote>
-        <h5 className="font-bold italic">HEALTH</h5>
+
+        <h4 className="text-lg font-extrabold italic">HEALTH</h4>
         <p className="text-justify">
           Sex workers take good care of their health, but research has found
           criminalised sex workers were twice as likely to contract HIV or
@@ -492,16 +485,17 @@ export function BriefingEnglish() {
             2020)
           </p>
         </blockquote>
-        <h5 className="font-bold italic">POLICY PRIORITIES</h5>
+
+        <h4 className="text-lg font-extrabold italic">POLICY PRIORITIES</h4>
         <p className="text-justify">
           The focus on policing as a way to reduce sex work has distorted
-          priorities so that money goes to law enforcement rather than provision
-          of benefits, housing and other resources for women to enable and
-          empower women to leave and refuse prostitution. University of Swansea
-          research found that: “[…] it is a focus on experiences of victims of
-          sexual exploitation, domestic abuse and modern slavery that are used
-          to inform the development of sex work service provision, whilst
-          disregarding the requests of sex workers for decriminalisation,
+          priorities so that money goes to law enforcement rather than the
+          provision of benefits, housing and other resources for women to enable
+          and empower women to leave and refuse prostitution. University of
+          Swansea research found that: “[…] it is a focus on experiences of
+          victims of sexual exploitation, domestic abuse and modern slavery that
+          are used to inform the development of sex work service provision,
+          whilst disregarding the requests of sex workers for decriminalisation,
           self-determination, labour rights and safety.”
         </p>
         <p className="text-justify">
@@ -510,93 +504,102 @@ export function BriefingEnglish() {
           workers. It affects every area of people’s lives including access to
           housing, benefits and health care.
         </p>
-        <h5 className="font-bold italic">PROPOSALS FOR CHANGE</h5>
+
+        <h4 className="text-lg font-extrabold italic">PROPOSALS FOR CHANGE</h4>
         <p className="text-justify">
-          <b>Implement an amnesty from arrest</b> to protect sex workers who
-          report witnessing or experiencing violence. A sex worker-led campaign
-          won such an amnesty in California. In cities across the US (Baltimore,
-          Los Angeles, Manhattan, Philadelphia, San Francisco) District
-          Attorneys are refusing to prosecute sex workers in recognition of the
-          harm caused by criminalisation.
+          Some of these actions to improve sex workers safety, health and
+          well-being could be immediately implemented by the Senedd and others
+          come under non-devolved powers. In that case, we ask that the Senedd
+          issue a statement outlining its position and its intention to raise
+          these issues with Westminster.
         </p>
-        <p className="text-justify">
-          <b>Amend National Police Chiefs’ Council guidelines</b> to specify
-          that arrests and raids should only occur where police can show
-          reasonable grounds to suspect that sex workers are being subject to
-          force and coercion. This would help ensure that sex workers aren’t
-          criminalised “simply for being sex workers” or engaging in practices
-          that increase their own safety.
-        </p>
-        <p className="text-justify">
-          <b>
-            Instruct the police, prosecuting authorities and courts to
-            prioritise safety
-          </b>{" "}
-          by vigorously investigating and prosecuting rape, coercion, stalking
-          and other violence.
-        </p>
-        <p className="text-justify">
-          <b>
-            Target resources at sex workers to enable them to leave prostitution
-            if they choose.
-          </b>{" "}
-          Specifically, priority for social housing, debt relief, health
-          services, improved domestic violence services and instructing benefit
-          decision makers to not impose sanctions.
-        </p>
-        <p className="text-justify">
-          <b>Extend to mothers as a “care income”</b>, the recently announced
-          payment of £1600 a month for young people leaving care in recognition
-          of the fact that most sex workers are working to support families.
-          Hawaii passed a law in January to pay a basic income of $2000 a month
-          to sex workers aiming to exit prostitution.
-        </p>
-        <p className="text-justify">
-          <b>
-            Take action to stop sex working mothers losing custody of their
-            children
-          </b>{" "}
-          -- no child should be is taken from their mother/primary carer because
-          the family is poor, homeless or unable to afford food, clothing or
-          childcare.
-        </p>
-        <p className="text-justify">
-          <b>Scrap the No Recourse to Public Funds (NRPF) condition</b> which
-          disproportionately affects women and leaves them destitute and at risk
-          of exploitation and violence.
-        </p>
-        <p className="text-justify">
-          <b>
-            Implement a &apos;firewall&apos; to separate police investigations
-            and labour inspections from Immigration Enforcement
-          </b>
-          , to ensure migrant sex workers can report violence regardless of
-          their immigration status
-        </p>
-        <p className="text-justify">
-          <b>
-            Oppose Clause 16 (Schedule 7 – Priority Offences) of the Online
-            Safety Bill
-          </b>{" "}
-          which will effectively prevent sex workers advertising online as this
-          has been shown to increase the risks for sex workers and make it
-          harder to work independently.
-        </p>
-        <p className="text-justify">
-          <b>Oppose the criminalisation of sex workers’ clients</b> (so called
-          ‘Nordic model’) as this undermines sex workers’ safety.
-        </p>
-        <p className="text-justify">
-          <b>
-            Support demands nationally for the decriminalisation of sex work.
-          </b>{" "}
-          Evidence from New Zealand where decriminalisation was introduced in
-          2003 shows: no rise in prostitution; women more able to report
-          violence without fear of arrest; attacks cleared up more quickly; sex
-          workers more able to leave prostitution as convictions are cleared
-          from their records; drug users treated as patients not criminals.
-        </p>
-        <p className="text-justify">
+        <ul className="list-disc">
+          <li>
+            <b>
+              Support demands nationally for the decriminalisation of sex work.
+            </b>{" "}
+            Evidence from New Zealand where decriminalisation was introduced in
+            2003 shows: no rise in prostitution; women more able to report
+            violence without fear of arrest; attacks cleared up more quickly;
+            sex workers more able to leave prostitution as convictions are
+            cleared from their records; drug users treated as patients not
+            criminals.
+          </li>
+          <li>
+            <b>Oppose the criminalisation of sex workers’ clients</b> (so called
+            ‘Nordic model’) as this undermines sex workers’ safety.
+          </li>
+          <li>
+            <b>Implement an amnesty from arrest</b> to protect sex workers who
+            report witnessing or experiencing violence. A sex worker-led
+            campaign won such an amnesty in California. In cities across the US
+            (Baltimore, Los Angeles, Manhattan, Philadelphia, San Francisco)
+            District Attorneys are refusing to prosecute sex workers in
+            recognition of the harm caused by criminalisation.
+          </li>
+          <li>
+            <b>Amend National Police Chiefs’ Council guidelines</b> to specify
+            that arrests and raids should only occur where police can show
+            reasonable grounds to suspect that sex workers are being subject to
+            force and coercion. This would help ensure that sex workers aren’t
+            criminalised “simply for being sex workers” or engaging in practices
+            that increase their own safety.
+          </li>
+          <li>
+            <b>
+              Implement a 'firewall' to separate police investigations into
+              violence and labour inspections from Immigration Enforcement
+            </b>
+            , to ensure migrant sex workers can report violence regardless of
+            their immigration status.
+          </li>
+          <li>
+            <b>
+              Instruct the police, prosecuting authorities and courts to
+              prioritise safety
+            </b>{" "}
+            by vigorously investigating and prosecuting rape, coercion, stalking
+            and other violence.
+          </li>
+          <li>
+            <b>Oppose clauses in the Online Safety Bill</b> which put a
+            responsibility onto tech companies to censor sex workers’ adverts as
+            any crackdown on online advertising has been shown to increase the
+            risks for sex workers and make it harder for people to work
+            independently.
+          </li>
+          <li>
+            <b>
+              Target resources at sex workers to enable them to leave
+              prostitution if they choose.
+            </b>{" "}
+            Specifically, priority for social housing, debt relief, health
+            services, improved domestic violence services and instructing
+            benefit decision makers to not impose sanctions.
+          </li>
+          <li>
+            <b>Extend the provision of a “care income” to mothers</b> - similar
+            to the payments of £1600 a month given to young people leaving care
+            - in recognition of the fact that most sex workers are working to
+            support families. Hawaii passed a law in January to pay a basic
+            income of $2000 a month to sex workers aiming to exit prostitution.
+          </li>
+          <li>
+            <b>
+              Take action to stop sex working mothers losing custody of their
+              children
+            </b>{" "}
+            - no child should be is taken from their mother/primary carer
+            because the family is poor, homeless or unable to afford food,
+            clothing or childcare.
+          </li>
+          <li>
+            <b>Scrap the No Recourse to Public Funds (NRPF) condition</b> which
+            disproportionately affects women and leaves them destitute and at
+            risk of exploitation and violence.
+          </li>
+        </ul>
+        <p>
           As an immediate first step, the 2016 parliamentary Home Affairs
           Committee recommendation could be implemented to decriminalise sex
           workers on the street and working together in premises and expunge
@@ -605,7 +608,7 @@ export function BriefingEnglish() {
         <p>
           Safety First Wales
           <br />
-          March 2023
+          April 2023
         </p>
       </article>
     </>
