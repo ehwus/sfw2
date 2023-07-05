@@ -14,6 +14,7 @@ export function News() {
             ? "Introducing Safety First Wales!"
             : "Cyflwyno Diogelwch yn Gyntaf Cymru!"}
         </h4>
+        <h5 className="italic">1 July 2023</h5>
         <p className="text-justify">
           {language == "English"
             ? "The Safety First Wales coalition has launched this month aiming to\n" +

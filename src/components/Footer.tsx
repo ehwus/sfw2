@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
+import facebookLogo from "../assets/facebook-circle.svg";
 
 export function Footer() {
   const currentYear = useMemo(() => new Date().getFullYear(), []);
@@ -15,6 +16,13 @@ export function Footer() {
             rel="noreferrer"
           >
             <img src={instagramLogo} alt="Instagram logo" className="h-8" />
+          </a>
+          <a
+            href="https://www.facebook.com/safety1stwales/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={facebookLogo} alt="Instagram Logo" className="h-8" />
           </a>
           <a
             href="https://twitter.com/safety1stwales"

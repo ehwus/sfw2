@@ -1,6 +1,7 @@
 import instagramLogo from "../assets/instagram.svg";
 import twitterLogo from "../assets/twitter.svg";
 import { useBilingualism } from "../hooks/useBilingalism";
+import facebookLogo from "../assets/facebook-circle.svg";
 
 export function Contact() {
   const { language } = useBilingualism();
@@ -24,6 +25,13 @@ export function Contact() {
             rel="noreferrer"
           >
             <img src={instagramLogo} alt="Instagram logo" className="h-8" />
+          </a>
+          <a
+            href="https://www.facebook.com/safety1stwales/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={facebookLogo} alt="Instagram Logo" className="h-8" />
           </a>
           <a
             href="https://www.instagram.com/safety1stwales/"

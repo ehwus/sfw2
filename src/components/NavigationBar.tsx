@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import instagramLogo from "../assets/instagram.svg";
+import facebookLogo from "../assets/facebook-circle.svg";
 import twitterLogo from "../assets/twitter.svg";
 import { Link, NavLink } from "react-router-dom";
 import { useOutsideClick } from "../hooks/useOutsideClick";
@@ -100,6 +101,19 @@ export function NavigationBar() {
           >
             {language === "English" ? "Contact" : "Cysylltwch â ni"}
           </NavLink>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/safety1stwales/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={facebookLogo}
+              alt="Instagram Logo"
+              className="h-6 hover:opacity-25"
+            />
+          </a>
         </li>
         <li>
           <a

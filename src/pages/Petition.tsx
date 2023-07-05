@@ -1,14 +1,23 @@
 import { useBilingualism } from "../hooks/useBilingalism";
+import petitionImage from "../assets/petition-image.png";
+import petitionImageWelsh from "../assets/petition-image-welsh.jpg";
 
 export function Petition() {
   const { language } = useBilingualism();
 
   return (
     <section className="w-full flex flex-col">
-      <div className="flex flex-col md:flex-row gap-6 items-center mx-auto md:mx-0 justify-items-center">
-        <h3 className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white w-40 h-11 mx-auto mt-5 lg:m-10">
-          {language === "English" ? "PETITION" : "DEISEB"}
-        </h3>
+      <h3 className="bg-black py-2.5 whitespace-nowrap px-6 text-center text-white w-40 h-11 mx-auto mt-5 lg:m-10">
+        {language === "English" ? "PETITION" : "DEISEB"}
+      </h3>
+      <aside className="items-center">
+        <img
+          src={language == "English" ? petitionImage : petitionImageWelsh}
+          alt="A poster like promotional image for our petition - it reads 'decriminalise sex work in Wales, safety first!'"
+          className="max-h-96 mx-auto"
+        />
+      </aside>
+      <div className="flex flex-col md:flex-row gap-6 items-center mx-auto md:mx-0 justify-items-center mt-3">
         <a
           href={
             language === "English"
@@ -17,7 +26,7 @@ export function Petition() {
           }
           rel="noreferrer"
           target="_blank"
-          className="border-2 border-black rounded-full py-2.5 px-6 hover:opacity-75"
+          className="border-2 border-black rounded-full py-2.5 px-6 mx-auto"
         >
           {language === "English"
             ? "CLICK HERE TO SIGN"

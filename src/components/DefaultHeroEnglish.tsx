@@ -13,10 +13,10 @@ export function DefaultHeroEnglish() {
         <h3 className="font-bold text-xl">#SAFETYFIRSTWALES</h3>
         <p className="mt-5 text-justify">
           Safety First Wales (SFW) – a coalition of sex workers, health
-          professionals, church representatives, anti-poverty, anti-violence,
-          and migrant and trans rights campaigners -- formed to decriminalise
-          sex work in Wales and prioritise sex workers’ safety, health, and
-          well-being.
+          professionals, church representatives, anti-racist, anti-poverty,
+          anti-violence, and migrant and trans rights campaigners -- formed to
+          decriminalise sex work in Wales and prioritise sex workers’ safety,
+          health, and well-being.
         </p>
         <div className="flex flex-wrap gap-5 mt-14 justify-center">
           <Link
