@@ -27,13 +27,13 @@ export function About() {
               "          disseminating these experiences, we aim to transform law and policy so\n" +
               "          that prostitution reduction strategies don’t focus on policing and law\n" +
               "          enforcement but on the provision of benefits, housing and other\n" +
-              "          resources for women to empower them to leave and refuse prostitution.\n" +
+              "          resources for sex workers to empower them to leave and refuse prostitution.\n" +
               "          We want to ensure that it is no longer possible for sex workers'\n" +
               "          voices to be ignored and overlooked in Wales."
             : "Mae gan aelodau ein rhwydwaith brofiad uniongyrchol o'r niwed a achosir gan droseddoli, tlodi a " +
               "gwahaniaethu. Drwy ddogfennu a lledaenu’r profiadau hyn, ein nod yw trawsnewid y gyfraith a pholisi " +
               "fel nad yw strategaethau lleihau puteindra yn canolbwyntio ar blismona a gorfodi'r gyfraith ond ar " +
-              "ddarparu budd-daliadau, tai ac adnoddau eraill i fenywod i’w grymuso i adael puteindra ac i’w " +
+              "ddarparu budd-daliadau, tai ac adnoddau eraill i weithwyr rhyw i’w grymuso i adael puteindra ac i’w " +
               "wrthod. Rydyn ni am sicrhau nad yw’n bosibl mwyach i leisiau gweithwyr rhyw gael eu hanwybyddu a’u " +
               "distyrru yng Nghymru."}
         </p>
