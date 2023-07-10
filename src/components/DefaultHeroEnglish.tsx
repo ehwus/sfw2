@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import petitionImage from "../assets/petition-image.png";
+import petitionImage from "../assets/petition-image.jpg";
 
 export function DefaultHeroEnglish() {
   return (

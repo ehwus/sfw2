@@ -60,7 +60,7 @@ export function NavigationBar() {
           <div
             className={`${
               showBriefingDropDown ? "" : "hidden"
-            } absolute flex flex-col bg-red-300 p-3 rounded-md`}
+            } absolute flex flex-col bg-red-300 p-3 rounded-md shadow-lg`}
           >
             <Link to="/briefing" className="hover:text-white">
               {language === "English" ? "Briefing" : "Briff"}

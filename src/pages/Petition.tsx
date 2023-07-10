@@ -1,5 +1,5 @@
 import { useBilingualism } from "../hooks/useBilingalism";
-import petitionImage from "../assets/petition-image.png";
+import petitionImage from "../assets/petition-image.jpg";
 import petitionImageWelsh from "../assets/petition-image-welsh.jpg";
 
 export function Petition() {
