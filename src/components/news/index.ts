@@ -1,4 +1,5 @@
 import { Introduction } from "./Introduction";
 import { CrimeAndPolicingBill } from "./CrimeAndPolicingBill";
+import { ToniaAntoniazziResponse } from "./ToniaAntoniazziResponse";
 
-export default [CrimeAndPolicingBill, Introduction];
+export default [ToniaAntoniazziResponse, CrimeAndPolicingBill, Introduction];
