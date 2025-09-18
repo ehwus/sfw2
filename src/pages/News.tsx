@@ -3,12 +3,26 @@ import { useBilingualism } from "../hooks/useBilingalism";
 import { ToniaAntoniazziResponse } from "../components/news/ToniaAntoniazziResponse";
 import { CrimeAndPolicingBill } from "../components/news/CrimeAndPolicingBill";
 import { Introduction } from "../components/news/Introduction";
+import { PrivateLivesPublicFictions } from "../components/news/PrivateLivesPublicFictions";
+import { OpenLetterSecretary } from "../components/news/OpenLetterSecretary";
 
 export function News() {
   const { language } = useBilingualism();
 
   // Article metadata for table of contents
   const articleData = [
+    {
+      id: "private-lives-public-fictions",
+      title: "Private Lives, Public Fictions",
+      date: "18 September 2025",
+      component: PrivateLivesPublicFictions
+    },
+    {
+      id: "open-letter-secretary",
+      title: "Open letter to the Secretary of State for Work and Pensions",
+      date: "15 September 2025",
+      component: OpenLetterSecretary
+    },
     {
       id: "tonia-antoniazzi-response",
       title: "A response to Tonia Antoniazzi MPs parliamentary statement",
